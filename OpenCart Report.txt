@@ -1,4 +1,4 @@
-How to extract data for reporting in jmeter
+Extract data for reporting in jmeter
 ============================================
 Dear OpenCart, 
 
