@@ -5,13 +5,14 @@
 - [Introduction](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#introduction)  
 - [Install](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#install)      
 - [Prerequisites](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#prerequisites)   
-- [Elements of a minimal test plan](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#prerequisites)    
+- [Elements of a Minimal Test Plan](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#prerequisites)    
 - [Test Plan](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#test-plan)    
 - [Collection of API](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#collection-of-api)   
     - [List of API](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#list-of-api) 
     - [Load the JMeter Script](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#load-the-jmeter-script)  
-- [Make jtl file](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#make-jtl-file)  
-- [Make html file](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#make-html-file)  
+- [Make jtl File](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#make-jtl-file)  
+- [Make html File](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#make-html-file)  
+- [HTML Report](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#html-report) 
 
 
 # Load testing Report
@@ -146,6 +147,9 @@ After completing this command
 
   ![b](https://user-images.githubusercontent.com/92669932/189541594-c608e5c9-9679-4c80-9f90-855985cfb630.jpg)  
   ![f](https://user-images.githubusercontent.com/92669932/189541801-59a45bdd-6a12-44f3-9194-ff41b2c3d954.jpg)  
+  
+
+# HTML Report
 
 **Number of Threads 1 ; Ramp-Up Period 10s**
    
