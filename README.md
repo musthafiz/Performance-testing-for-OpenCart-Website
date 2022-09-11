@@ -145,8 +145,47 @@ After completing this command
   - **o**: path to output folder  
 
   ![b](https://user-images.githubusercontent.com/92669932/189541594-c608e5c9-9679-4c80-9f90-855985cfb630.jpg)  
-  ![f](https://user-images.githubusercontent.com/92669932/189541801-59a45bdd-6a12-44f3-9194-ff41b2c3d954.jpg)
+  ![f](https://user-images.githubusercontent.com/92669932/189541801-59a45bdd-6a12-44f3-9194-ff41b2c3d954.jpg)  
+
+**Number of Threads 1 ; Ramp-Up Period 10s**
    
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![1](https://user-images.githubusercontent.com/92669932/189543492-df0751ca-3642-4e3f-a050-0454e38117ef.jpg)  |  ![2](https://user-images.githubusercontent.com/92669932/189543499-17c168a2-5b32-4710-9bc0-df7a2b3656c7.jpg)
+
+**Number of Threads 2 ; Ramp-Up Period 10s**
+   
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![3](https://user-images.githubusercontent.com/92669932/189543781-8e545531-a134-4dfd-b6bc-36b6539668b5.jpg) |  ![4](https://user-images.githubusercontent.com/92669932/189543783-37624029-b0ea-4671-b5e7-e158453b6d7c.jpg)
+
+
+**Number of Threads 3 ; Ramp-Up Period 10s**
+   
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![5](https://user-images.githubusercontent.com/92669932/189543851-f5ee4f83-275f-4c9d-b716-748380ab337e.jpg)  |  ![6](https://user-images.githubusercontent.com/92669932/189543857-e2042257-9410-4a04-a301-e89631204291.jpg)
+
+
+**Number of Threads 4 ; Ramp-Up Period 10s**
+   
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![7](https://user-images.githubusercontent.com/92669932/189543865-5acac49a-e858-4ce0-95ce-92500d1a1cf0.jpg)  |  ![8](https://user-images.githubusercontent.com/92669932/189543871-749aaf77-1639-4de4-9f59-5476c63ced98.jpg)
+
+
+**Number of Threads 5 ; Ramp-Up Period 10s**
+   
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![9](https://user-images.githubusercontent.com/92669932/189543881-995a888b-c63b-4f38-8b42-d21140704dfc.jpg)  |  ![10](https://user-images.githubusercontent.com/92669932/189543883-8229a05a-6a96-41da-85c8-d8ae587ebcae.jpg)
+
+
+**Number of Threads 6 ; Ramp-Up Period 10s**
+   
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+ ![11](https://user-images.githubusercontent.com/92669932/189543896-bba2da13-370e-438c-84e9-88439c8e307e.jpg) |  ![12](https://user-images.githubusercontent.com/92669932/189543902-851bd50a-95a7-435e-8df2-a6c615786109.jpg)
 
 
 
