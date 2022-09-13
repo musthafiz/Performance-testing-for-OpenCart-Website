@@ -34,7 +34,7 @@
 
 # Introduction
 
-This document explains how to run performance test with jMeter agains a OpenCart E-commerce Site.
+This document explains how to run a performance test with JMeter against an OpenCart E-commerce Site.
 
 # Install
 
@@ -45,9 +45,9 @@ https://www.oracle.com/java/technologies/downloads/
 https://jmeter.apache.org/download_jmeter.cgi  
 
 Click =>Binaries    
-=>apache-jmeter-5.5.zip
+=>**apache-jmeter-5.5.zip**
 
-**We use BlazeMeter to generate jmx files**  
+**We use BlazeMeter to generate JMX files**    
 https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmdnpcbohhpnfglgohlbhfongabi?hl=en
 
 # Prerequisites
@@ -58,7 +58,7 @@ https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmdnpcbo
 # Elements of a minimal test plan
 - Thread Group
 
-    The root element of every test plan. Simulates the (concurrent) users then run all requests. Each thread simulates a single user.
+    The root element of every test plan. Simulates the (concurrent) users and then run all requests. Each thread simulates a single user.
 
 - HTTP Request Default (Configuration Element)
 
