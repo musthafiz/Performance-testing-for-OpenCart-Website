@@ -111,8 +111,8 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
                                    
 # Test execution (from the Terminal)
  
-- JMeter should be initialized in non-GUI mode.  
-- Make a report folder in the **bin** file.  
+- JMeter should be initialized in non-GUI mode.
+- Make a report folder in the **bin** folder.  
 - Run Command in __jmeter\bin__ file. 
 
     ### Make jtl file
