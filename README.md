@@ -251,11 +251,15 @@ Requests Summary             |  Errors
 
 - Run the test to see if data from the CSV file is read and populated in the results.  
 
-- Run the test to see if data from CSV file is read and populated in the results.
+- Run the test to see if data from CSV file is read and populated in the results.    
+**Number of Threads 13 ; Ramp-Up Period 5s**
 
-a | b
-:-------------------------:|:-------------------------:
-![3](https://user-images.githubusercontent.com/92669932/189915389-f52412d5-0923-415b-8a33-5abad32ea6b0.jpg) |  ![4](https://user-images.githubusercontent.com/92669932/189915418-346927f1-eaf7-4b1a-81da-b806bcce2e1c.jpg)
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/92669932/189938100-48702b1a-99a6-4de4-af25-66f069b78e1c.jpg" width="49%" />   
+  <img src="https://user-images.githubusercontent.com/92669932/189938110-331e82ad-1e51-465a-a2e8-aec250760351.jpg" width="49%" />   
+  <img src="https://user-images.githubusercontent.com/92669932/189938113-dee95de0-4302-41ed-9924-5ddac5836cfe.jpg" width="49%" />    
+  <img src="https://user-images.githubusercontent.com/92669932/189938115-2de6ea5e-d90c-4fd1-bcc9-7e3997c52693.jpg" width="49%" />     
+</p>
 
 
 
