@@ -14,8 +14,8 @@
 - [Make html File](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#make-html-file)  
 - [HTML Report](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#html-report) 
 - [Stress Testing](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#stress-testing)    
-- [Spike Testing](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#spike-testing)    
-
+- [Spike Testing](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#spike-testing)      
+- [Endurance Testing](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#endurance-testing)
 
 # Load testing Report
 
@@ -228,7 +228,17 @@ Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
 ![s](https://user-images.githubusercontent.com/92669932/189822076-38361a8b-db25-4e43-98f4-2a582d0244fa.jpg) | ![p](https://user-images.githubusercontent.com/92669932/189822103-fdcd8c85-6d17-4135-af20-a700b5bb05d7.jpg)
 
+# Endurance Testing
+An application may be put through endurance testing to see if it can handle the processing load that will be placed on it over an extended period of time. Memory usage is tracked throughout endurance tests to identify potential issues.   
 
+**Start Threads count 6s ; Initial Delay 0s ; Start up Time 10s ; Hold load for 600s ; Shutdown Time 0s**     
+
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![e](https://user-images.githubusercontent.com/92669932/189861431-3843b069-8a12-4e38-b527-2a28700f7bf9.jpg) | ![f](https://user-images.githubusercontent.com/92669932/189861468-84b0bd3c-1531-4a30-a7b2-9d9f59964823.jpg)
+
+
+![g](https://user-images.githubusercontent.com/92669932/189861508-97e0adc4-09d7-45d6-a0da-0f6ad8facc6b.jpg)
 
 
 
