@@ -1,21 +1,21 @@
 # Content
 
-- [Load testing Report](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#load-testing-report)  
-- [Summary](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#summary)  
-- [Introduction](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#introduction)  
-- [Install](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#install)      
-- [Prerequisites](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#prerequisites)   
-- [Elements of a Minimal Test Plan](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#prerequisites)    
-- [Test Plan](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#test-plan)    
-- [Collection of API](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#collection-of-api)   
-    - [List of API](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#list-of-api) 
-    - [Load the JMeter Script](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#load-the-jmeter-script)  
-- [Make jtl File](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#make-jtl-file)  
-- [Make html File](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#make-html-file)  
-- [HTML Report](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#html-report) 
-- [Stress Testing](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#stress-testing)    
-- [Spike Testing](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#spike-testing)    
-
+- [Load testing Report](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#load-testing-report)  
+- [Summary](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#summary)  
+- [Introduction](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#introduction)  
+- [Install](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#install)      
+- [Prerequisites](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#prerequisites)   
+- [Elements of a Minimal Test Plan](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#prerequisites)    
+- [Test Plan](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#test-plan)    
+- [Collection of API](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#collection-of-api)   
+    - [List of API](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#list-of-api) 
+    - [Load the JMeter Script](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#load-the-jmeter-script)  
+- [Make jtl File](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#make-jtl-file)  
+- [Make html File](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#make-html-file)  
+- [HTML Report](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#html-report) 
+- [Stress Testing](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#stress-testing)    
+- [Spike Testing](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#spike-testing)      
+- [Endurance Testing](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#endurance-testing)
 
 # Load testing Report
 
@@ -228,6 +228,17 @@ Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
 ![s](https://user-images.githubusercontent.com/92669932/189822076-38361a8b-db25-4e43-98f4-2a582d0244fa.jpg) | ![p](https://user-images.githubusercontent.com/92669932/189822103-fdcd8c85-6d17-4135-af20-a700b5bb05d7.jpg)
 
+# Endurance Testing
+An application may be put through endurance testing to see if it can handle the processing load that will be placed on it over an extended period of time. Memory usage is tracked throughout endurance tests to identify potential issues.   
+
+**Start Threads count 6s ; Initial Delay 0s ; Start up Time 10s ; Hold load for 600s ; Shutdown Time 0s**     
+
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![e](https://user-images.githubusercontent.com/92669932/189861431-3843b069-8a12-4e38-b527-2a28700f7bf9.jpg) | ![f](https://user-images.githubusercontent.com/92669932/189861468-84b0bd3c-1531-4a30-a7b2-9d9f59964823.jpg)
+
+
+![t](https://user-images.githubusercontent.com/92669932/189866938-ce1e11e2-9720-4c4f-91a6-6c79e450632b.jpg)
 
 
 
