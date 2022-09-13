@@ -16,6 +16,10 @@
 - [Stress Testing](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#stress-testing)    
 - [Spike Testing](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#spike-testing)      
 - [Endurance Testing](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#endurance-testing)
+- [Read Test Data from CSV file in Jmeter](https://github.com/musthafiz/Load-testing-for-OpenCart-Website#read-test-data-from-csv-file-in-jmeter)
+
+
+
 
 # Load testing Report
 
