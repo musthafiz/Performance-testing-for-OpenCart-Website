@@ -58,8 +58,7 @@ https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmdnpcbo
 # Elements of a minimal test plan
 - Thread Group
 
-    The root element of every test plan. Simulatest the (concurrent) users than run all requests. 
-    Each thread simulates a single user.
+    The root element of every test plan. Simulates the (concurrent) users then run all requests. Each thread simulates a single user.
 
 - HTTP Request Default (Configuration Element)
 
@@ -78,7 +77,7 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 
   1) The general setting for the tests' execution, such as whether Thread Groups will run simultaneously or sequentially, is specified in the item called Test Plan.
 
-  2) All HTTP Requests will use some default settings from the HTTP Request, such as the Server IP, Port Number, and Content Encoding.
+  2) All HTTP Requests will use some default settings from the HTTP Request, such as the Server IP, Port Number, and Content-Encoding.
 
   3) Each Thread Group specifies how the HTTP Requests should be carried out. To determine how many concurrent "users" will be simulated, one must first know the number of threads. The number of actions each "user" will perform is determined by the loop count.
 
@@ -88,7 +87,7 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 
 - Run BlazeMeter  
 - Collect Frequently used API  
-- Save JMX file then paste => apache-jmeter-5.5\bin
+- Save JMX file then paste => **apache-jmeter-5.5\bin**
 
     ### List of API 
 
@@ -112,8 +111,8 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
                                    
 # Test execution (from the Terminal)
  
-- JMeter should be initialized in non-gui mode.  
-- Make a report folde in **bin** file.  
+- JMeter should be initialized in non-GUI mode.  
+- Make a report folder in the **bin** file.  
 - Run Command in __jmeter\bin__ file. 
 
     ### Make jtl file
@@ -126,7 +125,7 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 
     - **l**: output file with results
 
-    Then continue upgrade Threads(1 to 6) by keeping Ramp-up Same.   
+    Then continue to upgrade Threads(1 to 6) by keeping Ramp-up Same.   
     ![a](https://user-images.githubusercontent.com/92669932/189541580-9345c967-36a3-48c1-bf51-692431658b27.jpg)   
     ![d](https://user-images.githubusercontent.com/92669932/189541861-ce9b4d40-3edb-408b-affd-c3c98020fddf.jpg)
 
