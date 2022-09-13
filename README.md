@@ -77,7 +77,7 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 - Ramp-Up Period (in seconds): 10
 - Loop Count: 1  
 
-  1) The general setting for the tests' execution, such as whether Thread Groups will run simultaneously or sequentially, is specified in the item called Test Plan.
+  1) The general setting for the tests execution, such as whether Thread Groups will run simultaneously or sequentially, is specified in the item called Test Plan.
 
   2) All HTTP Requests will use some default settings from the HTTP Request, such as the Server IP, Port Number, and Content-Encoding.
 
