@@ -13,6 +13,8 @@
 - [Make jtl File](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#make-jtl-file)  
 - [Make html File](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#make-html-file)  
 - [HTML Report](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#html-report) 
+- [Stress Testing](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#stress-testing)    
+- [Spike Testing](https://github.com/musthafiz/Load-testing-for-OpenCart-Website/edit/main/README.md#spike-testing)    
 
 
 # Load testing Report
@@ -34,7 +36,7 @@
 
 # Introduction
 
-This document explains how to run performance test with jMeter agains a OpenCart E-commerce Site.
+This document explains how to run a performance test with JMeter against an OpenCart E-commerce Site.
 
 # Install
 
@@ -45,9 +47,9 @@ https://www.oracle.com/java/technologies/downloads/
 https://jmeter.apache.org/download_jmeter.cgi  
 
 Click =>Binaries    
-=>apache-jmeter-5.5.zip
+=>**apache-jmeter-5.5.zip**
 
-**We use BlazeMeter to generate jmx files**  
+**We use BlazeMeter to generate JMX files**    
 https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmdnpcbohhpnfglgohlbhfongabi?hl=en
 
 # Prerequisites
@@ -58,8 +60,7 @@ https://chrome.google.com/webstore/detail/blazemeter-the-continuous/mbopgmdnpcbo
 # Elements of a minimal test plan
 - Thread Group
 
-    The root element of every test plan. Simulatest the (concurrent) users than run all requests. 
-    Each thread simulates a single user.
+    The root element of every test plan. Simulates the (concurrent) users and then run all requests. Each thread simulates a single user.
 
 - HTTP Request Default (Configuration Element)
 
@@ -76,9 +77,9 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 - Ramp-Up Period (in seconds): 10
 - Loop Count: 1  
 
-  1) The general setting for the tests' execution, such as whether Thread Groups will run simultaneously or sequentially, is specified in the item called Test Plan.
+  1) The general setting for the tests execution, such as whether Thread Groups will run simultaneously or sequentially, is specified in the item called Test Plan.
 
-  2) All HTTP Requests will use some default settings from the HTTP Request, such as the Server IP, Port Number, and Content Encoding.
+  2) All HTTP Requests will use some default settings from the HTTP Request, such as the Server IP, Port Number, and Content-Encoding.
 
   3) Each Thread Group specifies how the HTTP Requests should be carried out. To determine how many concurrent "users" will be simulated, one must first know the number of threads. The number of actions each "user" will perform is determined by the loop count.
 
@@ -88,7 +89,7 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 
 - Run BlazeMeter  
 - Collect Frequently used API  
-- Save JMX file then paste => apache-jmeter-5.5\bin
+- Save JMX file then paste => **apache-jmeter-5.5\bin**
 
     ### List of API 
 
@@ -112,9 +113,9 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
                                    
 # Test execution (from the Terminal)
  
-- JMeter should be initialized in non-gui mode.  
-- Make a report folde in **bin** file.  
-- Run Command in __jmeter\bin__ file. 
+- JMeter should be initialized in non-GUI mode.
+- Make a report folder in the **bin** folder.  
+- Run Command in __jmeter\bin__ folder. 
 
     ### Make jtl file
 
@@ -126,7 +127,7 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 
     - **l**: output file with results
 
-    Then continue upgrade Threads(1 to 6) by keeping Ramp-up Same.   
+    Then continue to upgrade Threads(1 to 6) by keeping Ramp-up Same.   
     ![a](https://user-images.githubusercontent.com/92669932/189541580-9345c967-36a3-48c1-bf51-692431658b27.jpg)   
     ![d](https://user-images.githubusercontent.com/92669932/189541861-ce9b4d40-3edb-408b-affd-c3c98020fddf.jpg)
 
@@ -138,8 +139,6 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 After completing this command  
   ### Make html file  
 - **jmeter -g report\OPENCART_T1.jtl -o report\OPENCART_T1.html**  
-
-
 
   - **g**: jtl results file
 
@@ -189,23 +188,45 @@ Requests Summary             |  Errors
    
 Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
- ![11](https://user-images.githubusercontent.com/92669932/189543896-bba2da13-370e-438c-84e9-88439c8e307e.jpg) |  ![12](https://user-images.githubusercontent.com/92669932/189543902-851bd50a-95a7-435e-8df2-a6c615786109.jpg)
+ ![11](https://user-images.githubusercontent.com/92669932/189543896-bba2da13-370e-438c-84e9-88439c8e307e.jpg) |  ![12](https://user-images.githubusercontent.com/92669932/189543902-851bd50a-95a7-435e-8df2-a6c615786109.jpg)   
+
+
+# Stress Testing
+
+Stress Testing is a type of software testing that evaluates how the software responds under extreme conditions. It verifies how robust a system will be, and its response capabilities and error handling when it is subjected to conditions where its normal functioning can be compromised.
+
+**Number of Threads 7 ; Ramp-Up Period 10s**
+   
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![a](https://user-images.githubusercontent.com/92669932/189820373-01f812aa-acaa-47fc-a7f2-91e813e23a4a.jpg) |  ![b](https://user-images.githubusercontent.com/92669932/189820402-fcef18b3-cd47-4b60-8ee1-87e1a7e59a01.jpg)
+
+  
+
+
+**Number of Threads 8 ; Ramp-Up Period 10s**
+   
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![c](https://user-images.githubusercontent.com/92669932/189820654-d0f9744c-d05e-462f-88f7-ba8f91125f29.jpg) | ![d](https://user-images.githubusercontent.com/92669932/189820670-b90a99e7-d44a-47f5-8d66-806e571c1fb4.jpg)    
 
 
 
+**Number of Threads 9 ; Ramp-Up Period 10s**
+   
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![e](https://user-images.githubusercontent.com/92669932/189820708-da2be22b-1718-4f9a-a89a-e5235d6d1e82.jpg)  |   ![f](https://user-images.githubusercontent.com/92669932/189820724-4217425e-491d-4177-918b-347e89281b6b.jpg)
 
+# Spike Testing
 
+Spike testing is a type of performance testing where the demand for an application is suddenly and drastically increased or decreased. Spike testing's objective is to ascertain how a software program will behave under highly variable traffic conditions.
 
-
-
-
-
-
-
-
-
-
-
+**Number of Threads 15 ; Ramp-Up Period 10s**
+   
+Requests Summary             |  Errors
+:-------------------------:|:-------------------------:
+![s](https://user-images.githubusercontent.com/92669932/189822076-38361a8b-db25-4e43-98f4-2a582d0244fa.jpg) | ![p](https://user-images.githubusercontent.com/92669932/189822103-fdcd8c85-6d17-4135-af20-a700b5bb05d7.jpg)
 
 
 
