@@ -113,7 +113,7 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
  
 - JMeter should be initialized in non-GUI mode.
 - Make a report folder in the **bin** folder.  
-- Run Command in __jmeter\bin__ file. 
+- Run Command in __jmeter\bin__ folder. 
 
     ### Make jtl file
 
@@ -137,8 +137,6 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 After completing this command  
   ### Make html file  
 - **jmeter -g report\OPENCART_T1.jtl -o report\OPENCART_T1.html**  
-
-
 
   - **g**: jtl results file
 
