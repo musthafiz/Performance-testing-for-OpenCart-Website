@@ -237,10 +237,25 @@ Requests Summary             |  Errors
 :-------------------------:|:-------------------------:
 ![e](https://user-images.githubusercontent.com/92669932/189861431-3843b069-8a12-4e38-b527-2a28700f7bf9.jpg) | ![f](https://user-images.githubusercontent.com/92669932/189861468-84b0bd3c-1531-4a30-a7b2-9d9f59964823.jpg)
 
-
 ![t](https://user-images.githubusercontent.com/92669932/189866938-ce1e11e2-9720-4c4f-91a6-6c79e450632b.jpg)
 
+# Read Test Data from CSV file in Jmeter  
+- Create a CSV file in the test suite folder and add test data to it.  
+![csv](https://user-images.githubusercontent.com/92669932/189913089-8bab3573-ad13-4d80-b9da-ff8168b953fe.jpg)
 
+- Add a Config Element CSV Data Set Config in Jmeter.   
+![2](https://user-images.githubusercontent.com/92669932/189913286-0ef1bf60-234f-4275-8def-47d815221dab.jpg)   
+
+- Configure ' CSV Data Set Config ' based on the need such as providing path of CSV file and variable names and other configs.
+![1](https://user-images.githubusercontent.com/92669932/189913690-80380eda-a4df-4e92-901b-5f1424dadcc2.jpg)  
+
+- Run the test to see if data from the CSV file is read and populated in the results.  
+
+- Run the test to see if data from CSV file is read and populated in the results.
+
+a | b
+:-------------------------:|:-------------------------:
+![3](https://user-images.githubusercontent.com/92669932/189915389-f52412d5-0923-415b-8a33-5abad32ea6b0.jpg) |  ![4](https://user-images.githubusercontent.com/92669932/189915418-346927f1-eaf7-4b1a-81da-b806bcce2e1c.jpg)
 
 
 
