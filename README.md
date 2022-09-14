@@ -243,19 +243,25 @@ Requests Summary             |  Errors
 
 ![t](https://user-images.githubusercontent.com/92669932/189866938-ce1e11e2-9720-4c4f-91a6-6c79e450632b.jpg)
 
-# Read Test Data from CSV file in Jmeter  
-- Create a CSV file in the test suite folder and add test data to it.  
+# Read Test Data from CSV file in Jmeter    
+
+- Create a CSV file in the test suite folder and add test data to it.  <br/>
+
 ![csv](https://user-images.githubusercontent.com/92669932/189913089-8bab3573-ad13-4d80-b9da-ff8168b953fe.jpg)
 
-- Add a Config Element CSV Data Set Config in Jmeter.   
+- Add a Config Element CSV Data Set Config in Jmeter.   <br/>
+
 ![2](https://user-images.githubusercontent.com/92669932/189913286-0ef1bf60-234f-4275-8def-47d815221dab.jpg)   
 
-- Configure ' CSV Data Set Config ' based on the need such as providing path of CSV file and variable names and other configs.
+- Configure ' CSV Data Set Config ' based on the need such as providing path of CSV file and variable names and other configs.   <br/>
+
 ![1](https://user-images.githubusercontent.com/92669932/189913690-80380eda-a4df-4e92-901b-5f1424dadcc2.jpg)  
 
-- Run the test to see if data from the CSV file is read and populated in the results.  
+- Run the test to see if data from the CSV file is read and populated in the results.  <br/>
 
-- Run the test to see if data from CSV file is read and populated in the results.    
+- Run the test to see if data from CSV file is read and populated in the results.    <br/>  
+
+
 **Number of Threads 13 ; Ramp-Up Period 5s**
 
 <p float="left">
