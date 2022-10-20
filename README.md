@@ -9,7 +9,8 @@
 - [Test Plan](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#test-plan)    
 - [Collection of API](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#collection-of-api)   
     - [List of API](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#list-of-api) 
-    - [Load the JMeter Script](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#load-the-jmeter-script)  
+    - [Load the JMeter Script](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#load-the-jmeter-script)     
+- [Make csv File](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#make-csv-file)    
 - [Make jtl File](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#make-jtl-file)  
 - [Make html File](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#make-html-file)  
 - [HTML Report](https://github.com/musthafiz/Performance-testing-for-OpenCart-Website#html-report) 
@@ -121,28 +122,36 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
 - Make a report folder in the **bin** folder.  
 - Run Command in __jmeter\bin__ folder. 
 
-    ### Make jtl file
+ ### Make csv file    
+ 
+   - **n**: non GUI mode
+  - **t**: test plan to execute
+  - **l**: output file with results   
 
-    - **jmeter -n -t  OPENCART_T1.jmx -l report\OPENCART_T1.jtl**
-
-    - **n**: non GUI mode
-
-    - **t**: test plan to execute
-
-    - **l**: output file with results
-
-    Then continue to upgrade Threads(1 to 6) by keeping Ramp-up Same.   
-    ![a](https://user-images.githubusercontent.com/92669932/189541580-9345c967-36a3-48c1-bf51-692431658b27.jpg)   
-    ![d](https://user-images.githubusercontent.com/92669932/189541861-ce9b4d40-3edb-408b-affd-c3c98020fddf.jpg)
-
-    
+```bash
+  jmeter -n -t  OPENCART_T1.jmx -l report\OPENCART_T1.csv
+```   
+![csvfile](https://user-images.githubusercontent.com/92669932/197028552-faf7d3e6-d74a-46fc-b4d2-750c244f2a5e.jpg)
 
 
+ ### Make jtl file
 
+```bash
+  jmeter -n -t  OPENCART_T1.jmx -l report\OPENCART_T1.jtl
+```      
+  Then continue to upgrade Threads(1 to 6) by keeping Ramp-up Same.   
+  
+  ![a](https://user-images.githubusercontent.com/92669932/189541580-9345c967-36a3-48c1-bf51-692431658b27.jpg)   
+  
+  ![d](https://user-images.githubusercontent.com/92669932/189541861-ce9b4d40-3edb-408b-affd-c3c98020fddf.jpg)
 
 After completing this command  
-  ### Make html file  
-- **jmeter -g report\OPENCART_T1.jtl -o report\OPENCART_T1.html**  
+   ### Make html file   
+  
+  ```bash
+  jmeter -g report\OPENCART_T1.jtl -o report\OPENCART_T1.html
+```
+ 
 
   - **g**: jtl results file
 
