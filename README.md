@@ -129,7 +129,7 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
   - **l**: output file with results   
 
 ```bash
-  jmeter -n -t  OPENCART_T1.jmx -l report\OPENCART_T1.csv
+  jmeter -n -t  OPENCART_T1.jmx -l OPENCART_T1.csv
 ```   
 ![csvfile](https://user-images.githubusercontent.com/92669932/197028552-faf7d3e6-d74a-46fc-b4d2-750c244f2a5e.jpg)
 
@@ -137,7 +137,7 @@ Testplan > Add > Threads (Users) > Thread Group (this might vary dependent on th
  ### Make jtl file
 
 ```bash
-  jmeter -n -t  OPENCART_T1.jmx -l report\OPENCART_T1.jtl
+  jmeter -n -t  OPENCART_T1.jmx -l OPENCART_T1.jtl
 ```      
   Then continue to upgrade Threads(1 to 6) by keeping Ramp-up Same.   
   
@@ -149,7 +149,7 @@ After completing this command
    ### Make html file   
   
   ```bash
-  jmeter -g report\OPENCART_T1.jtl -o report\OPENCART_T1.html
+  jmeter -g report\OPENCART_T1.jtl -o OPENCART_T1.html
 ```
  
 
